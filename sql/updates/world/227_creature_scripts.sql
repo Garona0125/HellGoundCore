@@ -1,0 +1,10 @@
+UPDATE `creature_template` SET `ScriptName` = 'npc_fire_elemental_guardian' WHERE `creature_template`.`entry` = 15438; 
+UPDATE `creature_template` SET `ScriptName` = 'npc_earth_elemental_guardian' WHERE `creature_template`.`entry` = 15352; 
+UPDATE `creature_template` SET `ScriptName` = 'mob_high_explosive_sheep' WHERE `creature_template`.`entry` = 24715;
+UPDATE `creature_template` SET `ScriptName` = 'boss_bloodmage_thalnos' WHERE `creature_template`.`entry` = 4543;
+UPDATE `creature_template` SET `ScriptName` = 'boss_houndmaster_loksey' WHERE `creature_template`.`entry` = 3974;
+UPDATE `creature_template` SET `ScriptName` = 'boss_interrogator_vishas' WHERE `creature_template`.`entry` = 3983;
+UPDATE `creature_template` SET `ScriptName` = 'boss_scorn' WHERE `creature_template`.`entry` = 14693;
+UPDATE `creature_template` SET `ScriptName` = 'npc_arugal_voidwalker' WHERE `creature_template`.`entry` = 4627;
+UPDATE `creature_template` SET `ScriptName` = 'mob_netherweb_victim' WHERE `creature_template`.`entry` = 22355;
+UPDATE `creature_template` SET `ScriptName` = 'npc_mikhail' WHERE `creature_template`.`entry` = 4963;

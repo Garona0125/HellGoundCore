@@ -1,0 +1,1 @@
+DELETE FROM `creature` WHERE `creature`.`guid` = 68833;DELETE FROM `creature` WHERE `creature`.`guid` = 68834;

@@ -1,0 +1,1 @@
+UPDATE `creature_template_addon` SET `bytes1` = '7', `emote` = '65' WHERE `creature_template_addon`.`entry` = 20158;

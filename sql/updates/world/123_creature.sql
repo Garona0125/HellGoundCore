@@ -1,0 +1,3 @@
+DELETE FROM `creature` WHERE `creature`.`id` = 6491 AND `creature`.`position_z` LIKE '241.566';
+INSERT INTO `creature` (`guid`, `id`, `map`, `spawnMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`) VALUES
+(NULL, 6491, 530, 1, 0, 0, -1424.61, 4359.87, 241.566, 5.40742, 300, 0, 0, 4900, 0, 0, 0);

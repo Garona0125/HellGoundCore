@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `InhabitType` = '4' WHERE `creature_template`.`entry` = 21348;

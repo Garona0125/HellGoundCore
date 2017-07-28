@@ -1,0 +1,2 @@
+-- Issue #13 » Fel Cannon MKI only "melee" and doesnt use his spell "Fel Cannon Blast" 
+UPDATE `creature_template` SET `spell1` = '0', `ScriptName` = 'npc_fel_cannon_mki' WHERE `creature_template`.`entry` = 22461; 

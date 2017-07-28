@@ -1,0 +1,1 @@
+UPDATE `hellground_string` SET `content_default` = '|c0ab5f400PlayTBC performed shutdown roll (0-%i) and will close in: %i secs. Shutdown msg: %s.|r' WHERE `hellground_string`.`entry` = 11012;

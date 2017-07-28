@@ -1,0 +1,2 @@
+UPDATE `creature_ai_scripts` SET `action1_param1` = '34446' WHERE `creature_ai_scripts`.`id` = 2166002; 
+UPDATE `creature_ai_scripts` SET `action1_param1` = '34446' WHERE `creature_ai_scripts`.`id` = 2166003; 

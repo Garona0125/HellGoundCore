@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `ScriptName` = 'mob_shadow_council_warlock' WHERE `creature_template`.`entry` = 21302;

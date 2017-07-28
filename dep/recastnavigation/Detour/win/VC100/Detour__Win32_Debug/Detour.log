@@ -1,0 +1,31 @@
+﻿生成启动时间为 6/25/2017 4:01:43 PM。
+     1>项目“D:\Code\TBC\play-core\dep\recastnavigation\Detour\win\VC100\Detour.vcxproj”在节点 6 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\Code\TBC\play-core\dep\recastnavigation\Detour\win\VC100\\..\..\..\..\lib\Win32_Debug\”。
+       InitializeBuildStatus:
+         正在创建“.\Detour__Win32_Debug\Detour.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D DEBUG /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Detour__Win32_Debug\\" /Fd".\Detour__Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\DetourAlloc.cpp ..\..\Source\DetourCommon.cpp ..\..\Source\DetourNavMesh.cpp ..\..\Source\DetourNavMeshBuilder.cpp ..\..\Source\DetourNavMeshQuery.cpp ..\..\Source\DetourNode.cpp
+         DetourNode.cpp
+         DetourNavMeshQuery.cpp
+         DetourNavMeshBuilder.cpp
+         DetourNavMesh.cpp
+         DetourCommon.cpp
+         DetourAlloc.cpp
+         正在生成代码...
+       Lib:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\Code\TBC\play-core\dep\recastnavigation\Detour\win\VC100\\..\..\..\..\lib\Win32_Debug\Detour.lib" /NOLOGO .\Detour__Win32_Debug\DetourAlloc.obj
+         .\Detour__Win32_Debug\DetourCommon.obj
+         .\Detour__Win32_Debug\DetourNavMesh.obj
+         .\Detour__Win32_Debug\DetourNavMeshBuilder.obj
+         .\Detour__Win32_Debug\DetourNavMeshQuery.obj
+         .\Detour__Win32_Debug\DetourNode.obj
+         Detour.vcxproj -> D:\Code\TBC\play-core\dep\recastnavigation\Detour\win\VC100\\..\..\..\..\lib\Win32_Debug\Detour.lib
+       FinalizeBuildStatus:
+         正在删除文件“.\Detour__Win32_Debug\Detour.unsuccessfulbuild”。
+         正在对“.\Detour__Win32_Debug\Detour.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Code\TBC\play-core\dep\recastnavigation\Detour\win\VC100\Detour.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11

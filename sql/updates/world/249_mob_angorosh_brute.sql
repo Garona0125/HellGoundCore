@@ -1,0 +1,1 @@
+UPDATE `creature_ai_scripts` SET `event_param3` = '12000', `event_param4` = '18000' WHERE `creature_ai_scripts`.`id` = 1811901; 

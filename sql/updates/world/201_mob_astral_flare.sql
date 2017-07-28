@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `mindmg` = '0', `maxdmg` = '0', `attackpower` = '0', `baseattacktime` = '0', `mechanic_immune_mask` = '3136', `ScriptName` = 'mob_astral_flare', `flags_extra` = '2' WHERE `creature_template`.`entry` = 17096;

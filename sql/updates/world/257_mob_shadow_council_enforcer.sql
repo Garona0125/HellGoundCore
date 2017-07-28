@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `unit_flags` = '768', `dynamicflags` = '2048' WHERE `creature_template`.`entry` = 17023; 

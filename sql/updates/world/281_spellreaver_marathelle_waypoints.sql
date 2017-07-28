@@ -1,0 +1,27 @@
+-- Pathing for  Spellreaver Marathelle (ID: 19926)
+SET @NPC := 71030;
+SET @PATH := @NPC * 10;
+UPDATE `creature` SET `spawndist`=0,`MovementType`=2,`position_x`=2589.493,`position_y`=2369.2155,`position_z`=109.4787 WHERE `guid`=@NPC;
+DELETE FROM `creature_addon` WHERE `guid`=@NPC;
+INSERT INTO `creature_addon` (`guid`,`path_id`,`mount`,`bytes0`,`bytes1`,`bytes2`,`emote`, `moveflags`, `auras`) VALUES (@NPC,@PATH,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+DELETE FROM `waypoint_data` WHERE `id`=@PATH;
+INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`,`delay`,`move_type`,`action`,`action_chance`,`wpguid`) VALUES
+(@PATH,1,2589.493, 2369.2155, 109.4787,0,0,0,100,0),
+(@PATH,2,2582.113, 2350.9670, 111.3569,0,0,0,100,0),
+(@PATH,3,2574.442, 2339.5693, 115.2842,0,0,0,100,0),
+(@PATH,4,2564.646, 2330.1848, 115.7636,0,0,0,100,0),
+(@PATH,5,2547.060, 2334.2624, 117.6169,0,0,0,100,0),
+(@PATH,6,2532.036, 2341.9038, 122.4735,0,0,0,100,0),
+(@PATH,7,2528.107, 2356.2270, 127.2762,0,0,0,100,0),
+(@PATH,8,2543.797, 2365.2043, 128.5077,0,0,0,100,0),
+(@PATH,9,2526.707, 2385.1950, 128.7044,0,0,0,100,0), 
+(@PATH,10,2519.575, 2359.5749, 128.5053,0,0,0,100,0),
+(@PATH,11,2497.030, 2370.4851, 134.9521,0,0,0,100,0),
+(@PATH,12,2519.575, 2359.5749, 128.5053,0,0,0,100,0),
+(@PATH,13,2526.707, 2385.1950, 128.7044,0,0,0,100,0),
+(@PATH,14,2543.797, 2365.2043, 128.5077,0,0,0,100,0),
+(@PATH,15,2528.107, 2356.2270, 127.2762,0,0,0,100,0),
+(@PATH,16,2532.036, 2341.9038, 122.4735,0,0,0,100,0),
+(@PATH,17,2547.060, 2334.2624, 117.6169,0,0,0,100,0),
+(@PATH,18,2564.646, 2330.1848, 115.7636,0,0,0,100,0),
+(@PATH,19,2574.442, 2339.5693, 115.2842,0,0,0,100,0);

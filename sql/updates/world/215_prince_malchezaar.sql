@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `speed` = '2' WHERE `creature_template`.`entry` = 15690; 
